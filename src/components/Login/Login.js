@@ -28,6 +28,11 @@ export const Login = () => {
       }))
     }).catch((err) => (alert(err)));
 
+    setName("");
+    setProfilePic("");
+    setMail("")
+    setPassword("");
+
   };
 
   const registerUser = () => {
